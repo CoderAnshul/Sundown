@@ -1,0 +1,229 @@
+
+@media(min-width:600px ) and (max-width:800px){
+    html,body{
+        overflow-x: hidden;
+    }
+    #nav-part2{
+        display: none;
+        
+    }
+    nav h3{
+        display: block;
+        padding: 1vw 2vw;
+        border: 1px solid #aaaaaa;
+        border-radius: 50px;
+        font-size: 3vw;
+        font-weight: 200;
+        padding-left: 7vw;
+    }
+    #center{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.318);
+        flex-direction: column-reverse;
+        margin-bottom: 5vw;
+        padding-bottom: 2vw;
+        padding-top: 10vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        position: relative;
+        z-index: 9;
+    }
+    #left{
+        padding-bottom: 3vw;
+        flex-wrap: nowrap;
+    }   
+    #left h3{
+        width: 50%;
+        font-size: 3vw;
+        line-height: 3vw;
+        letter-spacing: -0.5px;
+        word-spacing: 0px;
+    
+    }
+    #center #right{
+        padding-bottom: 3vw;
+        padding-right: 0vw;
+    }
+    #center #right h1{
+        font-size: 12vw;
+        line-height: 10vw;
+        text-align: end;
+        font-weight: 900;
+        letter-spacing: -3px;
+    }
+
+    #page2-bottom{
+        height: 80vh;
+        width: 100%;
+        padding: 4vw;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 10vw;
+        z-index: 9;
+    }
+    #page2-bottom h1{
+        font-size: 4.5vw;
+        width: 100%;
+        line-height:4vw;
+    }
+    #bottom-part2{
+        width: 40%;
+        height: 50vh;
+        position: relative;
+        margin-left: 4%;
+        bottom: 0;
+    }
+    #bottom-part2 img{
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 3vw;
+    }
+    #bottom-part2 p{
+        margin-top: 1.5vw;
+        font-size: 2vw;
+    }
+    #page2 #gooey{
+        height: 62vw;
+        width: 62vw;
+        top:30%;
+        left: 35%;
+    }
+    #page3 h4{
+        width: 15%;
+    }
+    #page3 .container{
+        height: 75vh;
+        width: 96vw;
+        margin: 0 2vw;
+        margin-bottom: 1vw;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 4vw;
+    }
+
+
+
+    /* --------------------- page 4 --------------------------- */
+    #page4{
+        height: 150vh;
+        width: 100%;
+        /* background-color: pink; */
+        background-color: #EFEAE3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5vh 0;
+    }
+    #page4{
+        padding: 5vh 1vh;
+    }
+    #page4 #page4-container{
+        flex-direction: column;
+    }
+    #page4-container #left{
+        height: 55%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 14vw 8vw;
+    }
+    #page4-container #left a{
+        width: 65%;
+    }
+    #page4-container #left a h1{
+        font-size: 5vw;
+        padding-left: 3vw;
+    }
+    #page4-container p{
+        width: 55%;
+        margin-top: 2vw;
+    }
+    #page4-container #right{
+        width: 100%;
+    }
+    #right img{
+        width: 100%;
+    }
+
+    /* -------------------- page 5---------------------- */
+    #page5-heading{
+        height: 6vw;
+        width: 30%;
+        justify-content: start;
+        gap: 2vw;
+        overflow: hidden;
+        margin-bottom: 10vw;
+        /* background-color: pink; */
+    }
+    #page5-heading #dot{
+        height: 2vw;
+        width: 2vw;
+    }
+    #page5-heading h2{
+        font-size: 2vw;
+    }
+    .swiper {
+        height: 70%;
+        width: 100%;
+      }
+    .swiper-slide {
+        width: 65%;
+        padding: 2vw 5vw;
+    }
+    .swiper-slide img {
+        height: 25%;
+        margin-bottom: 3vw;
+    }
+    .swiper-slide p{
+        font-size: 2vw;
+        font-weight: 100;
+        width: 100%;
+    }
+    #footer h1{
+        font-size: 23vw;
+        margin-bottom: -2vw;
+        margin-top: 10vw;
+    }
+
+    #footer-div{
+        height: 25vh;
+        width: 100%;
+        /* background-color: #FE330A; */
+
+    }
+    #footer-div #left{
+        width: 20vw;
+    }
+    #footer-div #left h2{
+        font-size: 5vw;
+    }
+    #footer-div #right{
+        width: 40vw;
+        gap: 10vw;
+    }
+    #footer-div #right h4{
+        font-size: 2.6vw;
+        font-weight: 200;
+    }
+    #footer-div #right input::placeholder{
+        font-size: 1.8vw;
+    }
+    #footer-bottom{
+        height:10vw;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12%;
+        border-top: 1px solid rgba(255, 255, 255, 0.603);
+        padding-top: 1vw;
+    }
+} 
